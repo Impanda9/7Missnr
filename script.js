@@ -7,7 +7,7 @@ document.getElementById("quiz-form").addEventListener("submit", function(event) 
     localStorage.setItem("MissingNr", selectedAnswer);
     console.log("Selected answer registered in local storage:", selectedAnswer);
 
-    window.location.href = "8.MissLTR.html";
+    window.location.href = "https://impanda9.github.io/8misltr/";
   } else {
     console.log("No answer selected or invalid input");
   }
